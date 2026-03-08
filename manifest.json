@@ -1,0 +1,24 @@
+{
+    "name": "Chromite RDP Client",
+    "short_name": "Chromite RDP",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "isolated_web_app": {
+        "version": "1.0.0"
+    },
+    "permissions": [
+        "direct-sockets"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'none';",
+        "isolated_app": "script-src 'self' 'wasm-unsafe-eval'; connect-src 'self' tcp:; object-src 'none';"
+    },
+    "icons": {
+        "16": "icon_16.png",
+        "128": "icon_128.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "IWA RDP Connect"
+    }
+}
