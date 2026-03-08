@@ -1,6 +1,6 @@
 {
   "name": "Chromite RDP",
-  "short_name": "Chromite RDP",
+  "short_name": "Chromite",
   "version": "1.0.0",
   "manifest_version": 3,
   "start_url": "/",
